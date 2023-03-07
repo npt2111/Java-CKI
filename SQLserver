@@ -1,0 +1,15 @@
+CREATE DATABASE QLNX
+GO 
+USE QLNX
+GO
+CREATE TABLE QUANLY(
+  MaH char(10),
+  TenH nvarchar(50),
+  Gia int,
+  dateNhap datetime,
+  Sln smallint,
+  dateXuat datetime,
+  Slx smallint
+)
+select*from QUANLY
+delete from QUANLY where MaH=''
